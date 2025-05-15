@@ -1,0 +1,39 @@
+@startsalt
+ {+
+ {* File | Settings | Help }
+ scale 2
+ 
+  {{^"Quantum Gates"
+
+ {^"single qubit
+ [ <b><color:yellow>I ]|[<b><color:red> X  ] 
+ [ <b><color:green>Y  ]|[<b><color:purple> Z  ]
+ [<b><color:blue> H  ]|[<b><color:pink> S  ]
+ [ <b><color:yellow>T  ]|[ <b><color:orange>U  ]
+ }
+ {^"Multi qubit"
+ [    CX     ] 
+ [   SWAP    ]
+ [   CU      ] 
+ [   CCX     ]  
+ }
+ {^"Operations"
+ [   BARRIER ]
+ }}|.|{^"quantum circut"
+ [<size 79>      </size>]|[<size 79>      </size>]| [<size 79 >      </size>]|[<size 79>      </size>]|[<size 79>      </size>]
+|[<size 79>      </size>]|[<size 79>      </size>]| [<size 79>      </size>]|[<size 79>      </size>]|[<size 79>      </size>]
+|[<size 79>      </size>]|[<size 79>      </size>]| [<size 79>      </size>]|[<size 79>      </size>]|[<size 79>      </size>]
+ }}
+
+ {^
+[New Circut]|[step]|[reset]|step 0/5
+ }
+ --
+ [Tensor Product:l0...0>]
+ .
+ Messages:
+ .
+ "         "
+ }
+ 
+ @endsalt
