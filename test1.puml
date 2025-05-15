@@ -1,0 +1,45 @@
+@startsalt
+{
+  {+
+    [File]^[
+      "New Circuit"{ "qubitsInput:3" "stepsInput:5" }
+      "Open"
+      "Save"
+      "Exit"
+    ]
+    [Settings]^[
+      "Language"^["English""中文"]
+      "Appearance"
+      "Colors"^["Red""Blue""Green"]
+    ]
+    [Help]^[
+      "Readme"
+      "About"{ "Author:Paulo Sousa" }
+    ]
+  }
+
+  {+
+    {^"Quantum Gates"
+      [Single Qubit]^[ [I][X][Y][Z][H][S][T][U] ]
+      [Multi Qubit]^[ [CX][SWAP][CU][CCX] ]
+      [Operations]^[ [BARRIER] ]
+    }
+
+    {^"Circuit Grid"
+      "|0> ───■─────┼─────┼─────┼─────"
+      "|0> ───┼──■──┼─────┼─────┼─────"
+      "|0> ───┼──┼──■─────┼─────┼─────"
+      "Steps:0/5"
+    }
+
+    {^"Controls"
+      [New Circuit][Step][Reset]
+    }
+  }
+
+  {+
+    "Tensor Product:|0...0>"
+    "Messages:Status:Ready"
+  }
+}
+@endsalt

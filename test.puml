@@ -1,8 +1,12 @@
 @startsalt
  {+
  {* File | Settings | Help }
- scale 2
- 
+{+
+[Quantum Circut]
+ .
+"                     "
+ }
+ .
   {{^"Quantum Gates"
 
  {^"single qubit
@@ -12,10 +16,10 @@
  [ <b><color:yellow>T  ]|[ <b><color:orange>U  ]
  }
  {^"Multi qubit"
- [    CX     ] 
- [   SWAP    ]
- [   CU      ] 
- [   CCX     ]  
+ [  <b><color:pink>  CX     ] 
+ [  <b><color:green>SWAP    ]
+ [  <b><color:darkpink> CU      ] 
+ [  <b><color:purple> CCX     ]  
  }
  {^"Operations"
  [   BARRIER ]
